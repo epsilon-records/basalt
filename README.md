@@ -6,7 +6,7 @@ Part of **[Epsilon Audio](https://github.com/natehouk/epsilon-plugins)**, a fami
 
 ![Basalt](screenshot.png)
 
-Basalt is a dual multimode filter for live use: big controls, no modulation to program, and light CPU use. It was written from scratch; no third-party code, presets or artwork are included.
+Basalt is a dual multimode filter for live use: big controls, no modulation to program, and light CPU use. It was written from scratch: the DSP, interface and presets are original work, and third-party components (such as the DPF framework) are listed under [License](#license).
 
 It is part of a family:
 - [Monolith](https://github.com/natehouk/monolith), a synth
