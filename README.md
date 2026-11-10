@@ -6,7 +6,7 @@ Part of **[Epsilon Audio](https://github.com/natehouk/epsilon-plugins)**, a fami
 
 ![Basalt](screenshot.png)
 
-Basalt is a clean-room design with the feature set of FabFilter Simplon, FabFilter's fifth plugin (October 2006), which was a simpler, CPU-light version of Volcano for live use. It was written from scratch, working only from FabFilter's public press release and product descriptions. No FabFilter code, binaries, presets, artwork or trademarks were used.
+Basalt is a dual multimode filter for live use: big controls, no modulation to program, and light CPU use. It was written from scratch; no third-party code, presets or artwork are included.
 
 It is part of a family:
 - [Monolith](https://github.com/natehouk/monolith), a synth
@@ -92,21 +92,7 @@ xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/*/Basalt*
 - To delete a user preset, right-click it in the menu, then click it again to confirm.
 - **Resizable** window, double-click to **type a value**, **Cmd/Ctrl-click** to reset a control, and the mouse wheel adjusts knobs.
 
-### Compared with FabFilter Simplon (2006)
-
-| Simplon | Basalt |
-|---|---|
-| Two multimode filters, serial or parallel | ✓ |
-| LP / HP / BP at 12 / 24 / 48 dB/oct (up to 27 filter types) | ✓ |
-| Three characters, smooth to raw and self-oscillating | ✓ Smooth, Fat, Raw |
-| Large interactive display; adjust the filters separately or together | ✓ plus Link Filters |
-| Big controls; vertical and circular knob dragging | ✓ |
-| Interactive MIDI Learn | ✓ |
-| Smoothed parameter changes, sample-accurate automation | ✓ |
-| Undo / redo, preset browser | ✓ plus saving your own presets |
-| Interactive help hints and a help file | ✓ hover tips, in-plugin help pages, full manual |
-| CPU-friendly | ✓ about 1% of one core with both 48 dB filters running |
-| Pro Tools (RTAS/AAX) | Not supported (needs Avid's SDK and signing) |
+Not supported: Pro Tools (AAX).
 
 ## Build from source
 
@@ -156,5 +142,3 @@ New parameters are only ever appended, so saved sessions and automation keep wor
 ## License
 
 [MIT](LICENSE). Built with [DPF](https://github.com/DISTRHO/DPF) and its bundled NanoVG, which are under the ISC license. `plugins/Basalt/ResizeHandle.hpp` comes from DPF's examples and keeps its ISC notice.
-
-"FabFilter" and "FabFilter Simplon" are trademarks of FabFilter Software Instruments. Basalt is not affiliated with or endorsed by FabFilter.

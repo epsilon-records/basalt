@@ -290,4 +290,4 @@ All parameters can be automated in your DAW.
 
 ---
 
-Basalt is free software under the MIT license. "FabFilter" and "Simplon" are trademarks of FabFilter Software Instruments; Basalt is an independent design and is not affiliated with or endorsed by FabFilter.
+Basalt is free software under the MIT license.
